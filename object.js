@@ -1,4 +1,5 @@
-// Creare un oggetto che descriva uno studente con le seguenti proprietà: nome, cognome e età.
+// Creare un oggetto che descriva uno studente con le seguenti proprietà:
+// nome, cognome e età.
 var studente = {
   name: "gabriele",
   surname: "scodinu",
@@ -27,10 +28,10 @@ var classe = [
   surname: "bianchi",
   age: 22
   },
-]
+];
 
-// Dare la possibilità all'utente attraverso 3 prompt di aggiungere un nuovo oggetto
-// studente inserendo nell'ordine: nome, cognome e età.
+// Dare la possibilità all'utente attraverso 3 prompt di aggiungere un
+// nuovo oggetto studente inserendo nell'ordine: nome, cognome e età.
 var inserisciNome = prompt("inserisci un nome");
 var inserisciCognome = prompt("inserisci un cognome");
 var inserisciEtà = prompt("inserisci un'età'");
@@ -45,4 +46,4 @@ classe.push(nuovoStudente);
 // Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
 for (var key in classe) {
   console.log(classe[key]);
-}
+};
